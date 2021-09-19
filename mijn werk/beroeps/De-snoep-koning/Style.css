@@ -1,0 +1,242 @@
+/****************************
+General
+*****************************/
+body{
+    background-image: url("img/achtergrond.jpg");
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position: center 0;
+    background-color: #fb9dcb;
+}
+
+/****************************
+Header
+*****************************/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.header img{
+    margin-top: 0;
+    padding: 0;
+    top: 0;
+}
+
+/****************************
+Container
+*****************************/
+.container{
+    border-radius: 5px;
+    padding: 2.3%;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
+
+
+/****************************
+Winkelmandje & Profiel & Home icon
+*****************************/
+.winkelmandje, .profiel, .home{
+    width: 100%;
+    background-color: white;
+    height: 50px
+}
+
+.mandje, .user, .homeicon{
+    font-size: 30px;
+    margin-right: 80px;
+    float: right;
+    color: grey;
+}
+
+/****************************
+Banner
+*****************************/
+
+.banner{
+    width: 100%;
+    height: 330px;
+}
+
+.banner-img{
+    width: 100%;
+}
+/****************************
+Card
+*****************************/
+.card{
+    border: none;
+    width: 286px;
+    margin: 10px;
+}
+
+.card-title{
+    color: #5a4f8c;
+    font-weight: normal;
+    font-family: "VAG Rounded Std",sans-serif;
+    line-height: 25px;
+    display: block;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 319px;
+}
+
+.price{
+    max-width: 319px;
+    width: 100%;
+    border: 1px solid #858585;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+.price a{
+    color: #ff0054;
+    float: right;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+.button{
+    text-decoration: none;
+}
+
+
+.button i{
+    font-size: 80%;
+}
+
+span{
+    color: #5a4f8c;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+/****************************
+Modal
+*****************************/
+
+
+img{
+    padding: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.btn-close{
+    float: right;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #5a4f8c;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+
+
+/****************************
+Aanmeld
+*****************************/
+
+.login{
+    float: left;
+}
+
+.registreer{
+    float: right;
+}
+
+/****************************
+Footer
+*****************************/
+
+.footer {
+    padding: 30px;
+}
+
+.row {
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap
+}
+
+.footer-menu {
+    margin: 0;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+    -webkit-column-rule: 1px solid #fff;
+    -moz-column-rule: 1px solid #fff;
+    column-rule: 1px solid #fff;
+    width: 100%;
+}
+
+.footer-menu li {
+    list-style: none;
+    display: block;
+}
+
+.footer-menu li a {
+    font-size: 15px;
+    display: block;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-menu {
+    width: 100%;
+    border-top: 1px solid #fff;
+    margin-top: 30px;
+}
+
+.social-menu h3 {
+    text-align: center;
+    display: block;
+    margin: 30px 0 10px;
+    color: #fff;
+}
+
+.social-media {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.social-media li a {
+    font-size: 64px;
+    line-height: 60px;
+    color: #ff0054;
+}
+
+.fab {
+    font-weight: 400;
+}

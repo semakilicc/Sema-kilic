@@ -1,0 +1,29 @@
+/* Opdracht 1 */
+.opdracht1{
+    background-color: #b8d3d8;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #5ca2ae;
+    width: auto;
+    padding: 30px;
+}
+
+/* Opdracht 2 */
+.opdracht2{
+    background-color: #747272;
+    padding: 50px
+}
+.content{
+    background-color: #a8a1a1;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.naam, .details, .overig{
+    background-color: #9a9696;
+}
